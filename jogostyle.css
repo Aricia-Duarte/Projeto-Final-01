@@ -1,0 +1,210 @@
+header {
+    background: linear-gradient(180deg, rgba(210, 95, 31, 0) 0%, rgba(210, 95, 31, 0.3) 99.99%, rgba(210, 95, 31, 0.251563) 100%);
+    mix-blend-mode: hard-light;
+    filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.18));
+    height: 100px;
+  }
+  .nomeloja {
+    position: absolute;
+    left: 200px;
+    top: 35px;
+    font-size: 25px;
+    color: #971515;
+  }
+
+  .imglogo {
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    left: 40px;
+    top: 10px;   
+    border-radius: 25px;
+  }
+  
+  .regras {
+    box-sizing: border-box;
+    width: 250px;
+    height: 280px;
+    background: #E4E4E4;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    position: absolute;
+    list-style: inside;
+  }
+
+  .tituloregras {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+.percent {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boasorte {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(15, 132, 76, 1);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.fraseInicial {
+    margin-top: 100px;
+    margin-left: 35px;
+    color: #971515;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(210, 95, 31, 0) 0%, rgba(210, 95, 31, 0.3) 99.99%, rgba(210, 95, 31, 0.251563) 100%);
+    mix-blend-mode: hard-light;
+    filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.18));
+    border-radius: 20px;
+    padding: 30px 0;
+}
+
+#fraseFinal {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.palavraoculta {
+    margin-top: 50px;;
+    font-size: 50px;
+}
+
+.imgideia, .dicas {
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 900px; 
+}
+
+.dicas li{
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.botaodicas {
+    margin-top: 20px;
+    margin-left: 900px;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    background: rgba(63, 112, 33, 1);
+    border-radius: 30px;
+    border: rgba(63, 112, 33, 1);
+    color: white;
+    position: static;
+}
+
+.botaodicas:hover {
+    text-decoration: underline;
+    background: rgb(65, 241, 74);
+}
+
+.botaoconfirmar {
+    align-self: center;
+    width:20%;
+    padding: 15px 0;
+    background: rgba(63, 112, 33, 1);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.botaoconfirmar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.textopontuacao {
+    position: absolute;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    width: 200px;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 82%;
+    border: 3px solid #FFFFFF;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+}
+
+.calculopontuacao {
+    width: 80px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 100px;
+    font-size: 30px;
+    padding: 20px 0px;
+    background: black;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 50px;
+}
+
+.teclado {
+    width: 60px;
+    height: 30px;
+    align-self: center;
+    padding: 2px;
+    margin: 2px;
+    background: grey;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+
+.quadroletras {
+    width:70%;
+    padding: 15px 0;
+    background: #E4E4E4;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.quadroTeclas {
+    display:inline-block;
+    text-align: center;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 400px;
+}   

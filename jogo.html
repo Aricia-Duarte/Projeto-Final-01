@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Produtos - Alma SLZ</title>
+        <link rel= "stylesheet" href="reset.css">
+        <link rel="stylesheet" href="jogostyle.css">
+        <script type="text/javascript" src="./index.js" ></script>    
+    </head>
+
+    <body>
+         <header>
+            <img class="imglogo" src= "alma.png">
+            <p class = "nomeloja">ALMA SLZ</p>
+
+         </header>
+
+         <main>
+            <div class="content">
+
+                <p class = "fraseInicial">Bem-Vindes ao caça desconto da Alma. <br>
+                    Acerte a palavra e ganhe desconto!!</p> 
+                <h1 id='fraseFinal'></h1>
+                <div class="dicastotal">
+                    <div class = "lugardicas"></div>     
+                    <ul class = "dicas">
+                        <li>
+                        <p id='dica1'></p>   
+                        <p id='dica2'></p>
+                        <p id='dica3'></p>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <button class ='botaoconfirmar' onclick="iniciar()">Iniciar o Jogo</button>
+
+                <p class = "palavraoculta"> </p>
+                <br>
+
+            </div>
+
+                <ul class = "regras">
+                    <h2 class = "tituloregras"> Regras do jogo:</h2><br/>
+                    <li> Se acertar de primeira, sem utilização de dicas, ganha <strong class= "percent">50%</strong> de desconto;</li><br/>
+                    <li> Você pode utilizar até 3 dicas, mas para cada dica utilizada você perde <strong class= "percent">10%</strong> de desconto;</li><br/>
+                    <li> A cada letra errada você perde <strong class= "percent">10%</strong> de desconto.</li><br/>
+                    <h2 class ="boasorte"> Boa sorte!!!</h2>
+                </ul>
+                <ul class = "textopontuacao">
+                    <p> Pontuação de desconto conquistada:</p>
+                    <p class = "calculopontuacao"></p>
+                </ul>
+
+             <p class = "quadroTeclas"></p>
+            
+        </main>
+       
+    </body>
+
+</html>
